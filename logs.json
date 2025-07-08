@@ -1,0 +1,1055 @@
+[
+  {
+    "query_id": "a7b3c9d1",
+    "user_query": "What is our company's policy on using GPT-4 for internal tools?",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_1138_chunk_4", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.91 },
+      { "chunk_id": "wiki_best_practices_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.84 },
+      { "chunk_id": "conf_proj_apollo_notes_chunk_1", "source": "Confluence", "retrieval_score": 0.78 },
+      { "chunk_id": "pdf_doc_1022_chunk_12", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.75 }
+    ],
+    "final_answer": "According to the 'AI Usage Guidelines' document from 2022, using external AI models is permitted for research but not for integration into production code without a full security review.",
+    "response_latency_ms": 3450,
+    "user_feedback": "thumb_down"
+  },
+  {
+    "query_id": "e4f8a2b5",
+    "user_query": "How do I set up my local development environment for the 'Phoenix' project?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_phoenix_setup_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_phoenix_setup_guide_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.97 },
+      { "chunk_id": "wiki_common_dev_issues_chunk_5", "source": "Engineering Wiki", "retrieval_score": 0.90 },
+      { "chunk_id": "conf_phoenix_kickoff_chunk_3", "source": "Confluence", "retrieval_score": 0.81 }
+    ],
+    "final_answer": "To set up your local environment for 'Phoenix', first clone the repository from GitHub, then run 'make install_deps' followed by 'make run_local'. Full details are in the 'Phoenix Setup Guide'.",
+    "response_latency_ms": 2100,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "c9d1b3a7",
+    "user_query": "What is the correct function signature for the `getUserProfile` endpoint in the main API?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_api_review_q2_chunk_8", "source": "Confluence", "retrieval_score": 0.93 },
+      { "chunk_id": "conf_deprecation_notes_chunk_2", "source": "Confluence", "retrieval_score": 0.88 },
+      { "chunk_id": "wiki_user_service_overview_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.85 },
+      { "chunk_id": "pdf_doc_998_chunk_7", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.82 }
+    ],
+    "final_answer": "The `getUserProfile` endpoint was discussed during the Q2 API review meeting. It was noted to be a critical part of the user service.",
+    "response_latency_ms": 3100,
+    "user_feedback": "thumb_down"
+  },
+  {
+    "query_id": "f8a2b5e4",
+    "user_query": "Give me a complete summary of all key architectural decisions for the 'Hydra' data pipeline project since its inception.",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_hydra_v1_spec_chunk_2", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.95 },
+      { "chunk_id": "wiki_hydra_architecture_v3_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.94 },
+      { "chunk_id": "conf_hydra_weekly_sync_chunk_45", "source": "Confluence", "retrieval_score": 0.92 },
+      { "chunk_id": "pdf_doc_hydra_v2_review_chunk_5", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.91 }
+    ],
+    "final_answer": "The 'Hydra' project began with a monolithic architecture as per the v1 spec, later evolving to a microservices-based approach in v3. Key decisions included switching from Kafka to Pulsar and adopting Airflow for orchestration...",
+    "response_latency_ms": 4850,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "b3a7c9d1",
+    "user_query": "Why is my feature branch `fix-login-bug-123` failing the CI/CD pipeline?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_common_cicd_errors_chunk_7", "source": "Engineering Wiki", "retrieval_score": 0.89 },
+      { "chunk_id": "conf_login_module_updates_chunk_3", "source": "Confluence", "retrieval_score": 0.85 },
+      { "chunk_id": "wiki_linter_rules_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.81 },
+      { "chunk_id": "wiki_dependency_management_chunk_4", "source": "Engineering Wiki", "retrieval_score": 0.78 }
+    ],
+    "final_answer": "CI/CD pipeline failures can be due to various reasons, such as linter violations, failing unit tests, or dependency conflicts. Please check the pipeline logs for a specific error message.",
+    "response_latency_ms": 3200,
+    "user_feedback": "thumb_down"
+  },
+  {
+    "query_id": "1a2b3c4d",
+    "user_query": "What was the Q1 2023 revenue for the EU region?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_q1_2023_earnings_call_chunk_5", "source": "Confluence", "retrieval_score": 0.95 },
+      { "chunk_id": "pdf_doc_2022_annual_report_chunk_15", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.88 },
+      { "chunk_id": "conf_q2_2023_planning_chunk_2", "source": "Confluence", "retrieval_score": 0.85 },
+      { "chunk_id": "wiki_sales_dashboard_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.79 }
+    ],
+    "final_answer": "The Q1 2023 earnings call notes mention strong performance in the EU, building on the momentum from the previous year.",
+    "response_latency_ms": 2900,
+    "user_feedback": "thumb_down"
+  },
+  {
+    "query_id": "5e6f7g8h",
+    "user_query": "Provide a code example for authenticating with the v3 API using Python.",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_api_v3_auth_guide_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.98 },
+      { "chunk_id": "wiki_api_v3_auth_guide_chunk_4", "source": "Engineering Wiki", "retrieval_score": 0.96 },
+      { "chunk_id": "pdf_doc_api_v2_spec_chunk_8", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.85 },
+      { "chunk_id": "wiki_python_sdk_examples_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.82 }
+    ],
+    "final_answer": "Here is a Python code snippet to authenticate with the v3 API: `import requests; ...`",
+    "response_latency_ms": 2350,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "9i0j1k2l",
+    "user_query": "Summarize the key findings from the 2021 user engagement study.",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_user_study_2021_chunk_1", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.99 },
+      { "chunk_id": "pdf_doc_user_study_2021_chunk_5", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.97 },
+      { "chunk_id": "pdf_doc_user_study_2021_chunk_12", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.95 },
+      { "chunk_id": "conf_2022_product_roadmap_chunk_3", "source": "Confluence", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "The 2021 user engagement study highlighted that users found the main dashboard intuitive but struggled with the advanced search features. Key recommendations included redesigning the search interface.",
+    "response_latency_ms": 5100,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "3m4n5o6p",
+    "user_query": "Who is the product manager for the 'Atlas' project?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_atlas_project_kickoff_chunk_1", "source": "Confluence", "retrieval_score": 0.94 },
+      { "chunk_id": "wiki_project_leads_directory_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.91 },
+      { "chunk_id": "conf_atlas_weekly_sync_chunk_22", "source": "Confluence", "retrieval_score": 0.88 },
+      { "chunk_id": "conf_org_chart_update_q2_chunk_4", "source": "Confluence", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "The kickoff meeting notes for project 'Atlas' list Jane Doe as the product manager.",
+    "response_latency_ms": 2400,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "7q8r9s0t",
+    "user_query": "What is the latest update on the office reopening plan?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_reopening_announcement_may_chunk_1", "source": "Confluence", "retrieval_score": 0.92 },
+      { "chunk_id": "pdf_doc_hr_policy_2022_chunk_5", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.85 },
+      { "chunk_id": "conf_reopening_faq_chunk_3", "source": "Confluence", "retrieval_score": 0.82 },
+      { "chunk_id": "wiki_facilities_contact_info_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.75 }
+    ],
+    "final_answer": "According to the HR policy document, the company has adopted a hybrid work model.",
+    "response_latency_ms": 3300,
+    "user_feedback": "thumb_down"
+  },
+  {
+    "query_id": "1u2v3w4x",
+    "user_query": "Explain the difference between our staging and production environments.",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_environment_overview_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_deployment_playbook_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.95 },
+      { "chunk_id": "pdf_doc_infra_setup_2021_chunk_7", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.88 },
+      { "chunk_id": "wiki_environment_overview_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "The staging environment is a replica of production used for final testing before release. It has the same architecture but uses test data. Production is the live environment serving real users.",
+    "response_latency_ms": 2600,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "5y6z7a8b",
+    "user_query": "What are the performance benchmarks for the new recommendation engine?",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_reco_engine_v2_perf_report_chunk_1", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.96 },
+      { "chunk_id": "conf_reco_engine_v3_planning_chunk_3", "source": "Confluence", "retrieval_score": 0.91 },
+      { "chunk_id": "pdf_doc_reco_engine_v2_perf_report_chunk_4", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.88 },
+      { "chunk_id": "wiki_reco_engine_overview_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "The performance report for the v2 recommendation engine shows a P95 latency of 150ms and a click-through rate of 5%.",
+    "response_latency_ms": 4150,
+    "user_feedback": "thumb_down"
+  },
+  {
+    "query_id": "9c8d7e6f",
+    "user_query": "How do I request access to the customer data warehouse?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_data_access_request_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_data_access_request_guide_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.97 },
+      { "chunk_id": "conf_data_governance_meeting_q1_chunk_4", "source": "Confluence", "retrieval_score": 0.85 },
+      { "chunk_id": "wiki_data_governance_policy_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.82 }
+    ],
+    "final_answer": "To request access to the data warehouse, you need to fill out the form at data-access.internal.company.com and get approval from your manager.",
+    "response_latency_ms": 2250,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "5g4h3j2k",
+    "user_query": "What was the outcome of the A/B test for the new checkout button color?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_ab_test_results_checkout_chunk_1", "source": "Confluence", "retrieval_score": 0.97 },
+      { "chunk_id": "conf_ab_test_results_checkout_chunk_2", "source": "Confluence", "retrieval_score": 0.95 },
+      { "chunk_id": "wiki_ab_testing_framework_guide_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.88 },
+      { "chunk_id": "pdf_doc_ui_style_guide_2022_chunk_8", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.81 }
+    ],
+    "final_answer": "The A/B test results showed that the green checkout button increased conversion by 1.5% with statistical significance.",
+    "response_latency_ms": 2800,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "1l0m9n8o",
+    "user_query": "What is the company's policy on open source software contributions?",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_ip_policy_2021_chunk_4", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.93 },
+      { "chunk_id": "wiki_oss_contribution_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.90 },
+      { "chunk_id": "conf_legal_town_hall_q4_chunk_5", "source": "Confluence", "retrieval_score": 0.85 },
+      { "chunk_id": "pdf_doc_ip_policy_2021_chunk_5", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.82 }
+    ],
+    "final_answer": "The IP policy from 2021 states that all contributions to open source projects require pre-approval from the legal department.",
+    "response_latency_ms": 3900,
+    "user_feedback": "thumb_down"
+  },
+  {
+    "query_id": "7p6q5r4s",
+    "user_query": "How do I run the integration tests for the mobile app?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_mobile_testing_guide_chunk_5", "source": "Engineering Wiki", "retrieval_score": 0.98 },
+      { "chunk_id": "wiki_mobile_testing_guide_chunk_6", "source": "Engineering Wiki", "retrieval_score": 0.96 },
+      { "chunk_id": "conf_mobile_release_planning_q3_chunk_2", "source": "Confluence", "retrieval_score": 0.85 },
+      { "chunk_id": "wiki_ci_cd_overview_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.81 }
+    ],
+    "final_answer": "To run the integration tests for the mobile app, navigate to the `/tests` directory and run the command `npm run test:integration`.",
+    "response_latency_ms": 2150,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "3t2u1v0w",
+    "user_query": "Who is responsible for maintaining the Kubernetes cluster?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_infra_oncall_schedule_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.95 },
+      { "chunk_id": "conf_sre_team_charter_chunk_2", "source": "Confluence", "retrieval_score": 0.92 },
+      { "chunk_id": "pdf_doc_k8s_initial_setup_chunk_3", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.88 },
+      { "chunk_id": "wiki_sre_team_roster_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "The SRE team is responsible for maintaining the Kubernetes cluster. The on-call schedule can be found on the Infrastructure wiki page.",
+    "response_latency_ms": 2700,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "9x8y7z6a",
+    "user_query": "Provide a summary of the 'Titan' project's goals for Q3.",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_titan_q3_okrs_chunk_1", "source": "Confluence", "retrieval_score": 0.98 },
+      { "chunk_id": "conf_titan_q3_okrs_chunk_2", "source": "Confluence", "retrieval_score": 0.96 },
+      { "chunk_id": "conf_titan_project_overview_chunk_1", "source": "Confluence", "retrieval_score": 0.90 },
+      { "chunk_id": "wiki_project_titan_tech_stack_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "The Q3 goals for project 'Titan' are to launch the beta version to internal users, achieve 99.9% uptime, and reduce API latency by 20%.",
+    "response_latency_ms": 2550,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "5b4c3d2e",
+    "user_query": "What is the process for deprecating an API endpoint?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_api_deprecation_policy_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "pdf_doc_api_lifecycle_2020_chunk_3", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.91 },
+      { "chunk_id": "conf_api_guild_meeting_notes_chunk_7", "source": "Confluence", "retrieval_score": 0.88 },
+      { "chunk_id": "wiki_api_deprecation_policy_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "The process involves marking the endpoint as deprecated, communicating the change to users, providing an alternative, and removing it after a 6-month grace period.",
+    "response_latency_ms": 3800,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "1f0g9h8i",
+    "user_query": "Where can I find the design mockups for the new user dashboard?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_dashboard_redesign_project_chunk_5", "source": "Confluence", "retrieval_score": 0.96 },
+      { "chunk_id": "wiki_design_tooling_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.88 },
+      { "chunk_id": "conf_dashboard_redesign_project_chunk_8", "source": "Confluence", "retrieval_score": 0.85 },
+      { "chunk_id": "pdf_doc_brand_guidelines_2022_chunk_11", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.80 }
+    ],
+    "final_answer": "The design mockups are available in Figma. The link was posted in the 'dashboard-redesign-project' Confluence space.",
+    "response_latency_ms": 2950,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "7j6k5l4m",
+    "user_query": "What version of Java is approved for new backend services?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_tech_stack_guidelines_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.98 },
+      { "chunk_id": "pdf_doc_backend_dev_policy_2021_chunk_2", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.92 },
+      { "chunk_id": "conf_backend_guild_sync_notes_chunk_9", "source": "Confluence", "retrieval_score": 0.88 },
+      { "chunk_id": "wiki_java_best_practices_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "According to a 2021 policy document, new services should use Java 11.",
+    "response_latency_ms": 3650,
+    "user_feedback": "thumb_down"
+  },
+  {
+    "query_id": "3n2o1p0q",
+    "user_query": "How do I report a security vulnerability?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_security_incident_response_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_security_incident_response_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.97 },
+      { "chunk_id": "conf_security_town_hall_q1_chunk_3", "source": "Confluence", "retrieval_score": 0.85 },
+      { "chunk_id": "pdf_doc_infosec_policy_2022_chunk_6", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.82 }
+    ],
+    "final_answer": "To report a security vulnerability, please use the internal reporting tool at security.internal.company.com or email the security team directly.",
+    "response_latency_ms": 2450,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "9r8s7t6u",
+    "user_query": "Can you summarize the 'Helios' project retrospective?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_helios_retro_chunk_1", "source": "Confluence", "retrieval_score": 0.98 },
+      { "chunk_id": "conf_helios_retro_chunk_2", "source": "Confluence", "retrieval_score": 0.96 },
+      { "chunk_id": "conf_helios_retro_chunk_3", "source": "Confluence", "retrieval_score": 0.95 },
+      { "chunk_id": "pdf_doc_helios_project_plan_chunk_1", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "The Helios retrospective highlighted successes in cross-functional collaboration but noted challenges with third-party API reliability. Action items include improving monitoring and creating a new testing environment.",
+    "response_latency_ms": 3150,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "5v4w3x2y",
+    "user_query": "What is the company's travel and expense policy for conferences?",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_travel_policy_2020_chunk_3", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.94 },
+      { "chunk_id": "conf_finance_faq_chunk_5", "source": "Confluence", "retrieval_score": 0.88 },
+      { "chunk_id": "pdf_doc_travel_policy_2020_chunk_4", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.85 },
+      { "chunk_id": "wiki_expense_reporting_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.80 }
+    ],
+    "final_answer": "The travel policy from 2020 outlines the rules for airfare, lodging, and meals. All expenses must be submitted through the expense portal within 30 days.",
+    "response_latency_ms": 4200,
+    "user_feedback": "thumb_down"
+  },
+  {
+    "query_id": "1z0a9b8c",
+    "user_query": "How do I get VPN access?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_vpn_setup_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_vpn_setup_guide_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.97 },
+      { "chunk_id": "wiki_it_support_faq_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.90 },
+      { "chunk_id": "conf_it_onboarding_session_notes_chunk_4", "source": "Confluence", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "To get VPN access, you need to download the VPN client from the IT portal and follow the setup instructions provided in the guide.",
+    "response_latency_ms": 1950,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "7d6e5f4g",
+    "user_query": "What is the status of the data center migration?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_dc_migration_weekly_update_chunk_12", "source": "Confluence", "retrieval_score": 0.97 },
+      { "chunk_id": "conf_dc_migration_weekly_update_chunk_11", "source": "Confluence", "retrieval_score": 0.95 },
+      { "chunk_id": "wiki_dc_migration_overview_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.88 },
+      { "chunk_id": "pdf_doc_dc_migration_plan_v1_chunk_3", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.82 }
+    ],
+    "final_answer": "The latest weekly update indicates that the data center migration is 75% complete and is currently on schedule to finish by the end of the quarter.",
+    "response_latency_ms": 2850,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "3h2i1j0k",
+    "user_query": "What are the coding standards for Go?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_go_style_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.98 },
+      { "chunk_id": "wiki_go_style_guide_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.96 },
+      { "chunk_id": "conf_go_guild_meeting_notes_chunk_5", "source": "Confluence", "retrieval_score": 0.88 },
+      { "chunk_id": "pdf_doc_backend_best_practices_2021_chunk_4", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.83 }
+    ],
+    "final_answer": "The Go style guide specifies using `gofmt` for formatting, following standard naming conventions, and writing effective unit tests for all public functions.",
+    "response_latency_ms": 2650,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "9l8m7n6o",
+    "user_query": "Summarize the all-hands meeting from last week.",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_all_hands_q2_recap_chunk_1", "source": "Confluence", "retrieval_score": 0.99 },
+      { "chunk_id": "conf_all_hands_q2_recap_chunk_2", "source": "Confluence", "retrieval_score": 0.97 },
+      { "chunk_id": "conf_all_hands_q2_recap_chunk_3", "source": "Confluence", "retrieval_score": 0.95 },
+      { "chunk_id": "wiki_company_values_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "Last week's all-hands meeting covered the strong Q2 financial results, the successful launch of the 'Phoenix' project, and the upcoming company-wide hackathon.",
+    "response_latency_ms": 2750,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "5p4q3r2s",
+    "user_query": "What is the disaster recovery plan for the main database?",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_dr_plan_2022_chunk_1", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.97 },
+      { "chunk_id": "wiki_database_management_guide_chunk_5", "source": "Engineering Wiki", "retrieval_score": 0.91 },
+      { "chunk_id": "pdf_doc_dr_plan_2022_chunk_2", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.88 },
+      { "chunk_id": "conf_sre_quarterly_review_q1_chunk_4", "source": "Confluence", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "The 2022 disaster recovery plan outlines a multi-region failover strategy with a recovery point objective (RPO) of 5 minutes and a recovery time objective (RTO) of 1 hour.",
+    "response_latency_ms": 4500,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "1t0u9v8w",
+    "user_query": "How do I format my code with the pre-commit hook?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_dev_setup_guide_chunk_4", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_dev_setup_guide_chunk_5", "source": "Engineering Wiki", "retrieval_score": 0.97 },
+      { "chunk_id": "wiki_linter_rules_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.90 },
+      { "chunk_id": "conf_dev_experience_survey_results_chunk_2", "source": "Confluence", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "The pre-commit hook should run automatically when you try to commit code. If it's not working, make sure you've run `pre-commit install` in your repository.",
+    "response_latency_ms": 2050,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "7x6y5z4a",
+    "user_query": "What is the marketing budget for the upcoming product launch?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_launch_plan_apollo_chunk_8", "source": "Confluence", "retrieval_score": 0.94 },
+      { "chunk_id": "pdf_doc_marketing_budget_2023_chunk_3", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.90 },
+      { "chunk_id": "conf_launch_plan_apollo_chunk_9", "source": "Confluence", "retrieval_score": 0.88 },
+      { "chunk_id": "wiki_marketing_campaign_guide_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.81 }
+    ],
+    "final_answer": "The marketing budget is detailed in the 2023 budget document and the launch plan for project Apollo.",
+    "response_latency_ms": 3350,
+    "user_feedback": "thumb_down"
+  },
+  {
+    "query_id": "3b2c1d0e",
+    "user_query": "How do I use the internal logging library?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_logging_library_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_logging_library_guide_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.97 },
+      { "chunk_id": "wiki_logging_best_practices_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.92 },
+      { "chunk_id": "conf_backend_guild_sync_notes_chunk_11", "source": "Confluence", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "To use the logging library, import it and call the appropriate level function, such as `logger.info('User logged in')`. The guide provides detailed examples.",
+    "response_latency_ms": 2200,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "9f8g7h6i",
+    "user_query": "What are the results of the latest employee satisfaction survey?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_employee_survey_q2_results_chunk_1", "source": "Confluence", "retrieval_score": 0.98 },
+      { "chunk_id": "pdf_doc_hr_annual_report_2022_chunk_7", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.90 },
+      { "chunk_id": "conf_employee_survey_q2_results_chunk_2", "source": "Confluence", "retrieval_score": 0.88 },
+      { "chunk_id": "wiki_hr_portal_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "The latest survey results show an overall satisfaction score of 8.2/10, with high marks for work-life balance and some concerns about career growth opportunities.",
+    "response_latency_ms": 3050,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "5j4k3l2m",
+    "user_query": "What is the company's stance on remote work?",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_remote_work_policy_2021_chunk_1", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.95 },
+      { "chunk_id": "conf_future_of_work_announcement_chunk_2", "source": "Confluence", "retrieval_score": 0.93 },
+      { "chunk_id": "wiki_hr_policy_overview_chunk_4", "source": "Engineering Wiki", "retrieval_score": 0.88 },
+      { "chunk_id": "pdf_doc_remote_work_policy_2021_chunk_2", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.86 }
+    ],
+    "final_answer": "The remote work policy from 2021 allows for full remote work for most roles, subject to manager approval.",
+    "response_latency_ms": 4350,
+    "user_feedback": "thumb_down"
+  },
+  {
+    "query_id": "1n0o9p8q",
+    "user_query": "How do I deploy a new version of a microservice?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_deployment_playbook_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_deployment_playbook_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.97 },
+      { "chunk_id": "wiki_ci_cd_overview_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.92 },
+      { "chunk_id": "conf_sre_office_hours_notes_chunk_5", "source": "Confluence", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "To deploy a new version, merge your changes to the main branch. The CI/CD pipeline will automatically build, test, and deploy the service to the staging environment. A manual approval is required for production deployment.",
+    "response_latency_ms": 2300,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "7r6s5t4u",
+    "user_query": "Who is the executive sponsor for the 'Omega' initiative?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_omega_initiative_charter_chunk_1", "source": "Confluence", "retrieval_score": 0.96 },
+      { "chunk_id": "conf_q3_leadership_offsite_notes_chunk_3", "source": "Confluence", "retrieval_score": 0.91 },
+      { "chunk_id": "wiki_company_leadership_page_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.88 },
+      { "chunk_id": "pdf_doc_annual_report_2022_chunk_2", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "The charter for the 'Omega' initiative lists the CTO as the executive sponsor.",
+    "response_latency_ms": 2900,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "3v2w1x0y",
+    "user_query": "What is the plan for migrating from Python 2 to Python 3?",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_python2_deprecation_plan_2019_chunk_1", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.98 },
+      { "chunk_id": "wiki_python_best_practices_chunk_5", "source": "Engineering Wiki", "retrieval_score": 0.92 },
+      { "chunk_id": "pdf_doc_python2_deprecation_plan_2019_chunk_2", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.90 },
+      { "chunk_id": "conf_backend_guild_meeting_notes_chunk_14", "source": "Confluence", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "The migration plan from 2019 outlines a phased approach to upgrading all services to Python 3.",
+    "response_latency_ms": 4950,
+    "user_feedback": "thumb_down"
+  },
+  {
+    "query_id": "9z8a7b6c",
+    "user_query": "How do I access the shared drive for the design team?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_shared_drives_guide_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "conf_design_team_onboarding_doc_chunk_2", "source": "Confluence", "retrieval_score": 0.95 },
+      { "chunk_id": "wiki_it_support_faq_chunk_5", "source": "Engineering Wiki", "retrieval_score": 0.90 },
+      { "chunk_id": "wiki_shared_drives_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "To access the design team's shared drive, you need to request access from the 'Design-Team-Admins' group. The guide provides a link to the access request form.",
+    "response_latency_ms": 2000,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "5d4e3f2g",
+    "user_query": "What are the key takeaways from the latest security audit?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_security_audit_q2_summary_chunk_1", "source": "Confluence", "retrieval_score": 0.97 },
+      { "chunk_id": "pdf_doc_security_audit_q1_report_chunk_10", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.91 },
+      { "chunk_id": "conf_security_audit_q2_summary_chunk_2", "source": "Confluence", "retrieval_score": 0.89 },
+      { "chunk_id": "wiki_security_best_practices_chunk_4", "source": "Engineering Wiki", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "The latest security audit found two medium-risk vulnerabilities in legacy services and recommended updating dependencies across several repositories.",
+    "response_latency_ms": 3400,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "1h0i9j8k",
+    "user_query": "How do I create a new Kafka topic?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_kafka_guide_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_kafka_guide_chunk_4", "source": "Engineering Wiki", "retrieval_score": 0.97 },
+      { "chunk_id": "conf_data_platform_office_hours_notes_chunk_6", "source": "Confluence", "retrieval_score": 0.90 },
+      { "chunk_id": "pdf_doc_hydra_project_spec_chunk_8", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "To create a new Kafka topic, you need to submit a pull request to the infrastructure repository with the topic configuration. The Kafka guide has a template you can use.",
+    "response_latency_ms": 2500,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "7l6m5n4o",
+    "user_query": "Who do I talk to about a payroll issue?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_hr_portal_guide_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.98 },
+      { "chunk_id": "conf_hr_faq_chunk_2", "source": "Confluence", "retrieval_score": 0.95 },
+      { "chunk_id": "wiki_hr_contacts_page_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.92 },
+      { "chunk_id": "pdf_doc_employee_handbook_2022_chunk_15", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "For payroll issues, you should contact the HR department by creating a ticket in the HR portal or emailing payroll@internal.company.com.",
+    "response_latency_ms": 2600,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "3p2q1r0s",
+    "user_query": "What is our cloud provider's SLA for virtual machine uptime?",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_cloud_provider_contract_2020_chunk_11", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.96 },
+      { "chunk_id": "wiki_cloud_best_practices_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.90 },
+      { "chunk_id": "conf_infra_cost_optimization_notes_chunk_4", "source": "Confluence", "retrieval_score": 0.88 },
+      { "chunk_id": "pdf_doc_cloud_provider_contract_2020_chunk_12", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.86 }
+    ],
+    "final_answer": "The contract from 2020 states that the cloud provider guarantees a 99.95% uptime SLA for virtual machines.",
+    "response_latency_ms": 4700,
+    "user_feedback": "thumb_down"
+  },
+  {
+    "query_id": "9t8u7v6w",
+    "user_query": "How do I get a new laptop?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_it_hardware_request_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_it_support_faq_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.97 },
+      { "chunk_id": "conf_it_onboarding_session_notes_chunk_2", "source": "Confluence", "retrieval_score": 0.90 },
+      { "chunk_id": "pdf_doc_asset_management_policy_2022_chunk_3", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "You can request a new laptop through the IT hardware portal if your current one is more than 3 years old or has a hardware failure. The request requires manager approval.",
+    "response_latency_ms": 2100,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "5x4y3z2a",
+    "user_query": "Summarize the findings of the 'Orion' project's proof of concept.",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_orion_poc_summary_chunk_1", "source": "Confluence", "retrieval_score": 0.98 },
+      { "chunk_id": "conf_orion_poc_summary_chunk_2", "source": "Confluence", "retrieval_score": 0.96 },
+      { "chunk_id": "pdf_doc_orion_initial_spec_chunk_4", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.90 },
+      { "chunk_id": "wiki_orion_project_overview_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "The 'Orion' proof of concept successfully demonstrated the feasibility of the proposed architecture, meeting all primary performance targets. The summary recommends proceeding to a full project.",
+    "response_latency_ms": 3250,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "1b0c9d8e",
+    "user_query": "What is the company's social media policy?",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_social_media_policy_2019_chunk_1", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.95 },
+      { "chunk_id": "conf_communications_guidelines_chunk_3", "source": "Confluence", "retrieval_score": 0.90 },
+      { "chunk_id": "wiki_hr_policy_overview_chunk_5", "source": "Engineering Wiki", "retrieval_score": 0.88 },
+      { "chunk_id": "pdf_doc_employee_handbook_2022_chunk_11", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.86 }
+    ],
+    "final_answer": "The social media policy from 2019 advises employees to be mindful of posting confidential information and to represent the company professionally.",
+    "response_latency_ms": 4400,
+    "user_feedback": "thumb_down"
+  },
+  {
+    "query_id": "7f6g5h4i",
+    "user_query": "How do I set up my email signature?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_email_signature_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "conf_brand_guidelines_update_chunk_4", "source": "Confluence", "retrieval_score": 0.92 },
+      { "chunk_id": "wiki_it_onboarding_guide_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.90 },
+      { "chunk_id": "pdf_doc_brand_guidelines_2022_chunk_14", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "You can find the approved email signature template and setup instructions on the 'Email Signature Guide' wiki page.",
+    "response_latency_ms": 2000,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "3j2k1l0m",
+    "user_query": "What are the security best practices for writing frontend code?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_frontend_security_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.98 },
+      { "chunk_id": "wiki_frontend_security_guide_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.96 },
+      { "chunk_id": "conf_frontend_guild_meeting_notes_chunk_8", "source": "Confluence", "retrieval_score": 0.90 },
+      { "chunk_id": "pdf_doc_infosec_policy_2022_chunk_9", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.87 }
+    ],
+    "final_answer": "Key frontend security practices include sanitizing user input to prevent XSS, using secure headers, and managing dependencies to avoid known vulnerabilities.",
+    "response_latency_ms": 2700,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "9n8o7p6q",
+    "user_query": "What were the main discussion points in the last architecture review meeting?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_architecture_review_q2_notes_chunk_1", "source": "Confluence", "retrieval_score": 0.97 },
+      { "chunk_id": "conf_architecture_review_q2_notes_chunk_2", "source": "Confluence", "retrieval_score": 0.95 },
+      { "chunk_id": "wiki_architecture_principles_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.90 },
+      { "chunk_id": "pdf_doc_hydra_project_spec_chunk_11", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "The last architecture review meeting focused on the proposed design for the 'Hydra' data pipeline and the plan for deprecating the legacy user service.",
+    "response_latency_ms": 3300,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "5r4s3t2u",
+    "user_query": "What is the process for a cross-team code review?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_code_review_guidelines_chunk_4", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "pdf_doc_engineering_ladder_2021_chunk_6", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.91 },
+      { "chunk_id": "conf_dev_process_working_group_notes_chunk_3", "source": "Confluence", "retrieval_score": 0.89 },
+      { "chunk_id": "wiki_code_review_guidelines_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.87 }
+    ],
+    "final_answer": "For cross-team reviews, it is recommended to add the relevant team's group as a reviewer on your pull request and provide a clear description of the changes and context.",
+    "response_latency_ms": 3950,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "1v0w9x8y",
+    "user_query": "How do I book a conference room?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_conference_room_booking_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "conf_facilities_faq_chunk_2", "source": "Confluence", "retrieval_score": 0.94 },
+      { "chunk_id": "wiki_office_map_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.90 },
+      { "chunk_id": "pdf_doc_employee_handbook_2022_chunk_8", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "You can book a conference room through the calendar application by creating an event and adding the desired room as a resource.",
+    "response_latency_ms": 1900,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "7z6a5b4c",
+    "user_query": "What is the company's policy on intellectual property?",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_ip_policy_2021_chunk_1", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.98 },
+      { "chunk_id": "pdf_doc_ip_policy_2021_chunk_2", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.96 },
+      { "chunk_id": "conf_legal_town_hall_q4_chunk_2", "source": "Confluence", "retrieval_score": 0.90 },
+      { "chunk_id": "wiki_oss_contribution_guide_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "The 2021 IP policy states that all work-related inventions and code created by employees are the property of the company.",
+    "response_latency_ms": 4600,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "3d2e1f0g",
+    "user_query": "How do I connect to the office Wi-Fi?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_wifi_setup_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_it_onboarding_guide_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.97 },
+      { "chunk_id": "conf_facilities_faq_chunk_1", "source": "Confluence", "retrieval_score": 0.91 },
+      { "chunk_id": "pdf_doc_infosec_policy_2022_chunk_12", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "To connect to the office Wi-Fi, select the 'Company-Secure' network and enter your corporate username and password.",
+    "response_latency_ms": 1850,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "9h8i7j6k",
+    "user_query": "What is the current version of the main web application?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_release_notes_v4_2_chunk_1", "source": "Confluence", "retrieval_score": 0.96 },
+      { "chunk_id": "wiki_deployment_dashboard_guide_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.91 },
+      { "chunk_id": "conf_release_planning_q3_chunk_4", "source": "Confluence", "retrieval_score": 0.88 },
+      { "chunk_id": "pdf_doc_web_app_architecture_v3_chunk_7", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.85 }
+    ],
+    "final_answer": "The release notes indicate that the current version is 4.2.0.",
+    "response_latency_ms": 3000,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "5l4m3n2o",
+    "user_query": "What is the process for getting a new software license approved?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_software_procurement_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.98 },
+      { "chunk_id": "conf_it_budget_planning_notes_chunk_5", "source": "Confluence", "retrieval_score": 0.92 },
+      { "chunk_id": "pdf_doc_procurement_policy_2022_chunk_3", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.89 },
+      { "chunk_id": "wiki_software_procurement_guide_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.87 }
+    ],
+    "final_answer": "To get a new software license, you must submit a request through the procurement portal, including a business justification. The request needs approval from your department head and IT.",
+    "response_latency_ms": 2800,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "1p0q9r8s",
+    "user_query": "What is the company's data retention policy?",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_data_retention_policy_2020_chunk_1", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.97 },
+      { "chunk_id": "wiki_data_governance_overview_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.91 },
+      { "chunk_id": "conf_legal_town_hall_q3_notes_chunk_4", "source": "Confluence", "retrieval_score": 0.88 },
+      { "chunk_id": "pdf_doc_data_retention_policy_2020_chunk_2", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.86 }
+    ],
+    "final_answer": "The data retention policy from 2020 specifies that customer data is retained for 7 years, while employee data is retained for the duration of employment plus 5 years.",
+    "response_latency_ms": 5200,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "7t6u5v4w",
+    "user_query": "How do I file a patent for my invention?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_patent_filing_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.98 },
+      { "chunk_id": "pdf_doc_ip_policy_2021_chunk_7", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.93 },
+      { "chunk_id": "conf_legal_office_hours_notes_chunk_3", "source": "Confluence", "retrieval_score": 0.90 },
+      { "chunk_id": "wiki_patent_filing_guide_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "To file a patent, you need to complete an invention disclosure form and submit it to the legal department for review. The guide on the wiki has detailed steps.",
+    "response_latency_ms": 2950,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "3x2y1z0a",
+    "user_query": "What is the status of the 'Vega' project?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_vega_project_weekly_update_chunk_15", "source": "Confluence", "retrieval_score": 0.97 },
+      { "chunk_id": "wiki_vega_project_overview_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.92 },
+      { "chunk_id": "conf_vega_project_weekly_update_chunk_14", "source": "Confluence", "retrieval_score": 0.90 },
+      { "chunk_id": "pdf_doc_vega_project_plan_v2_chunk_2", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.87 }
+    ],
+    "final_answer": "The 'Vega' project is currently in the user acceptance testing (UAT) phase. The latest weekly update shows that it is on track for launch next month.",
+    "response_latency_ms": 2850,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "9b8c7d6e",
+    "user_query": "What is the company's policy on employee referrals?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_employee_referral_program_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "pdf_doc_hr_policy_2022_chunk_8", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.93 },
+      { "chunk_id": "conf_recruiting_update_q2_chunk_3", "source": "Confluence", "retrieval_score": 0.90 },
+      { "chunk_id": "wiki_employee_referral_program_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "The employee referral program offers a bonus for successful hires. You can submit referrals through the HR portal. The policy is detailed on the wiki.",
+    "response_latency_ms": 2750,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "5f4g3h2i",
+    "user_query": "How do I debug a memory leak in a Node.js service?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_nodejs_debugging_guide_chunk_5", "source": "Engineering Wiki", "retrieval_score": 0.98 },
+      { "chunk_id": "wiki_nodejs_best_practices_chunk_7", "source": "Engineering Wiki", "retrieval_score": 0.95 },
+      { "chunk_id": "conf_backend_guild_tech_talk_notes_chunk_4", "source": "Confluence", "retrieval_score": 0.90 },
+      { "chunk_id": "pdf_doc_node_performance_tuning_2021_chunk_3", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.87 }
+    ],
+    "final_answer": "To debug a memory leak in Node.js, you can use tools like the built-in inspector with Chrome DevTools to take heap snapshots and identify detached DOM trees or growing objects.",
+    "response_latency_ms": 4050,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "1j0k9l8m",
+    "user_query": "What is the agenda for the upcoming design review?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_design_review_agenda_q3_chunk_1", "source": "Confluence", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_design_review_process_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.93 },
+      { "chunk_id": "conf_design_review_agenda_q3_chunk_2", "source": "Confluence", "retrieval_score": 0.91 },
+      { "chunk_id": "pdf_doc_orion_poc_summary_chunk_3", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "The agenda for the upcoming design review includes a walkthrough of the 'Orion' project's new UI mockups and a discussion on the proposed component library.",
+    "response_latency_ms": 3100,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "7o6p5q4r",
+    "user_query": "What is the company's official font?",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_brand_guidelines_2022_chunk_4", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.98 },
+      { "chunk_id": "wiki_frontend_style_guide_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.92 },
+      { "chunk_id": "conf_marketing_campaign_planning_q3_chunk_5", "source": "Confluence", "retrieval_score": 0.88 },
+      { "chunk_id": "pdf_doc_brand_guidelines_2022_chunk_5", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.86 }
+    ],
+    "final_answer": "The official company font, as specified in the 2022 brand guidelines, is 'Inter'.",
+    "response_latency_ms": 3700,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "3s2t1u0v",
+    "user_query": "How do I claim my stock options?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_stock_options_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "conf_finance_town_hall_notes_chunk_3", "source": "Confluence", "retrieval_score": 0.94 },
+      { "chunk_id": "pdf_doc_employee_stock_plan_2021_chunk_5", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.91 },
+      { "chunk_id": "wiki_stock_options_guide_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.89 }
+    ],
+    "final_answer": "You can claim your vested stock options through the equity management platform. The wiki guide provides a step-by-step walkthrough of the process.",
+    "response_latency_ms": 2800,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "9w8x7y6z",
+    "user_query": "What are the key results from the 'Gemini' project's performance tests?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_gemini_perf_test_results_chunk_1", "source": "Confluence", "retrieval_score": 0.98 },
+      { "chunk_id": "pdf_doc_gemini_architecture_spec_chunk_9", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.93 },
+      { "chunk_id": "conf_gemini_perf_test_results_chunk_2", "source": "Confluence", "retrieval_score": 0.91 },
+      { "chunk_id": "wiki_performance_testing_framework_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "The performance tests for the 'Gemini' project show that the P99 latency is 85ms under load, which meets the project's target of under 100ms.",
+    "response_latency_ms": 3150,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "5a4b3c2d",
+    "user_query": "What is the company's policy on parental leave?",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_parental_leave_policy_2022_chunk_1", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.97 },
+      { "chunk_id": "wiki_hr_benefits_overview_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.92 },
+      { "chunk_id": "conf_hr_all_hands_q1_notes_chunk_4", "source": "Confluence", "retrieval_score": 0.89 },
+      { "chunk_id": "pdf_doc_employee_handbook_2022_chunk_10", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.87 }
+    ],
+    "final_answer": "The 2022 parental leave policy provides 18 weeks of paid leave for primary caregivers and 6 weeks for secondary caregivers.",
+    "response_latency_ms": 3850,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "1e0f9g8h",
+    "user_query": "How do I configure my IDE for the company's code style?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_ide_setup_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_linter_rules_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.96 },
+      { "chunk_id": "wiki_ide_setup_guide_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.94 },
+      { "chunk_id": "conf_dev_experience_survey_results_chunk_4", "source": "Confluence", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "The IDE setup guide on the wiki provides configuration files and instructions for VS Code, IntelliJ, and Vim to automatically format code according to the company's style guide.",
+    "response_latency_ms": 2250,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "7i6j5k4l",
+    "user_query": "What is the latest version of the iOS app?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_ios_release_notes_v3_5_chunk_1", "source": "Confluence", "retrieval_score": 0.97 },
+      { "chunk_id": "wiki_mobile_release_process_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.92 },
+      { "chunk_id": "pdf_doc_ios_app_architecture_v3_chunk_5", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.89 },
+      { "chunk_id": "conf_mobile_team_q3_planning_chunk_3", "source": "Confluence", "retrieval_score": 0.87 }
+    ],
+    "final_answer": "The latest version of the iOS app is 3.5.0, which was released last week. The release notes are available on Confluence.",
+    "response_latency_ms": 3050,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "3m2n1o0p",
+    "user_query": "What is the company's code of conduct?",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_code_of_conduct_2021_chunk_1", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.98 },
+      { "chunk_id": "wiki_hr_policy_overview_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.93 },
+      { "chunk_id": "conf_hr_onboarding_session_notes_chunk_2", "source": "Confluence", "retrieval_score": 0.90 },
+      { "chunk_id": "pdf_doc_code_of_conduct_2021_chunk_2", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "The code of conduct from 2021 outlines our commitment to a respectful and inclusive workplace and provides guidelines for professional behavior.",
+    "response_latency_ms": 4750,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "9q8r7s6t",
+    "user_query": "How do I get access to the analytics dashboard?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_analytics_dashboard_access_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_data_access_request_guide_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.96 },
+      { "chunk_id": "conf_analytics_team_office_hours_notes_chunk_4", "source": "Confluence", "retrieval_score": 0.91 },
+      { "chunk_id": "pdf_doc_data_governance_policy_2022_chunk_5", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "To get access to the analytics dashboard, you need to be added to the 'Analytics-Users' group. Please file a ticket with the IT department to request access.",
+    "response_latency_ms": 2400,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "5u4v3w2x",
+    "user_query": "What is the company's policy on using personal devices for work?",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_byod_policy_2020_chunk_1", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.97 },
+      { "chunk_id": "wiki_infosec_best_practices_chunk_5", "source": "Engineering Wiki", "retrieval_score": 0.92 },
+      { "chunk_id": "conf_it_security_update_q2_chunk_3", "source": "Confluence", "retrieval_score": 0.89 },
+      { "chunk_id": "pdf_doc_byod_policy_2020_chunk_2", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.87 }
+    ],
+    "final_answer": "The 'Bring Your Own Device' policy from 2020 allows the use of personal devices, provided they meet certain security requirements, such as encryption and remote wipe capabilities.",
+    "response_latency_ms": 4900,
+    "user_feedback": "thumb_down"
+  },
+  {
+    "query_id": "1y0z9a8b",
+    "user_query": "How do I set up a recurring meeting in the calendar?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_calendar_guide_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_it_support_faq_chunk_7", "source": "Engineering Wiki", "retrieval_score": 0.95 },
+      { "chunk_id": "conf_productivity_tips_chunk_2", "source": "Confluence", "retrieval_score": 0.90 },
+      { "chunk_id": "pdf_doc_employee_handbook_2022_chunk_9", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.86 }
+    ],
+    "final_answer": "To set up a recurring meeting, create a calendar event and select the 'Repeat' option. You can then choose the frequency, such as daily, weekly, or monthly.",
+    "response_latency_ms": 1950,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "7c6d5e4f",
+    "user_query": "What is the status of the Q3 hiring plan?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_q3_hiring_plan_update_chunk_4", "source": "Confluence", "retrieval_score": 0.98 },
+      { "chunk_id": "conf_recruiting_team_sync_notes_chunk_8", "source": "Confluence", "retrieval_score": 0.95 },
+      { "chunk_id": "wiki_open_roles_page_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.90 },
+      { "chunk_id": "pdf_doc_annual_budget_2023_chunk_7", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.87 }
+    ],
+    "final_answer": "The Q3 hiring plan is currently on track. The latest update shows that 80% of the targeted roles have been filled.",
+    "response_latency_ms": 2900,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "3g2h1i0j",
+    "user_query": "How do I connect to the database from my local machine?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_local_db_setup_guide_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_local_db_setup_guide_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.97 },
+      { "chunk_id": "conf_backend_onboarding_doc_chunk_4", "source": "Confluence", "retrieval_score": 0.92 },
+      { "chunk_id": "pdf_doc_database_access_policy_2021_chunk_3", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "To connect to the database locally, you need to use the VPN and configure a secure tunnel. The guide on the wiki provides the necessary credentials and commands.",
+    "response_latency_ms": 2550,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "9k8l7m6n",
+    "user_query": "What is the company's policy on business gifts?",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_ethics_policy_2021_chunk_5", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.96 },
+      { "chunk_id": "conf_legal_faq_chunk_3", "source": "Confluence", "retrieval_score": 0.91 },
+      { "chunk_id": "wiki_hr_policy_overview_chunk_6", "source": "Engineering Wiki", "retrieval_score": 0.88 },
+      { "chunk_id": "pdf_doc_ethics_policy_2021_chunk_6", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.86 }
+    ],
+    "final_answer": "The 2021 ethics policy states that employees may not accept gifts valued at more than $50 from clients or partners without prior approval from the legal department.",
+    "response_latency_ms": 4100,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "5o4p3q2r",
+    "user_query": "How do I add a new dependency to a Python project?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_python_dependency_management_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_python_best_practices_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.96 },
+      { "chunk_id": "conf_backend_guild_meeting_notes_chunk_12", "source": "Confluence", "retrieval_score": 0.90 },
+      { "chunk_id": "pdf_doc_ci_cd_pipeline_spec_v2_chunk_4", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.87 }
+    ],
+    "final_answer": "To add a new dependency, add it to the `requirements.in` file and then run `pip-compile` to update the `requirements.txt` file. This ensures that all dependencies are pinned.",
+    "response_latency_ms": 2450,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "1s0t9u8v",
+    "user_query": "Summarize the customer feedback from the last quarter.",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_customer_feedback_summary_q2_chunk_1", "source": "Confluence", "retrieval_score": 0.98 },
+      { "chunk_id": "conf_customer_feedback_summary_q2_chunk_2", "source": "Confluence", "retrieval_score": 0.96 },
+      { "chunk_id": "wiki_customer_support_playbook_chunk_4", "source": "Engineering Wiki", "retrieval_score": 0.90 },
+      { "chunk_id": "pdf_doc_product_roadmap_2023_chunk_5", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "Customer feedback from Q2 was generally positive, with high praise for the new dashboard features. Common requests included a mobile app and more integration options.",
+    "response_latency_ms": 3200,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "7w6x5y4z",
+    "user_query": "What is the company's policy on flexible working hours?",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_work_life_balance_policy_2022_chunk_1", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.97 },
+      { "chunk_id": "wiki_hr_benefits_overview_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.93 },
+      { "chunk_id": "conf_hr_all_hands_q2_notes_chunk_3", "source": "Confluence", "retrieval_score": 0.90 },
+      { "chunk_id": "pdf_doc_employee_handbook_2022_chunk_7", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "The 2022 policy on work-life balance supports flexible hours, allowing employees to adjust their start and end times as long as they are available for core collaboration hours (10 AM to 4 PM).",
+    "response_latency_ms": 3900,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "3a2b1c0d",
+    "user_query": "How do I get a security review for my new service?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_security_review_process_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_security_review_process_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.97 },
+      { "chunk_id": "conf_infosec_team_charter_chunk_3", "source": "Confluence", "retrieval_score": 0.92 },
+      { "chunk_id": "pdf_doc_sddlc_policy_2021_chunk_4", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.89 }
+    ],
+    "final_answer": "To get a security review, create a ticket for the Information Security team with a link to your service's design document and repository. The process is outlined on the wiki.",
+    "response_latency_ms": 2650,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "9e8f7g6h",
+    "user_query": "What were the key decisions from the last product strategy meeting?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_product_strategy_q3_notes_chunk_1", "source": "Confluence", "retrieval_score": 0.98 },
+      { "chunk_id": "conf_product_strategy_q3_notes_chunk_2", "source": "Confluence", "retrieval_score": 0.96 },
+      { "chunk_id": "wiki_product_roadmap_overview_chunk_1", "source": "Engineering Wiki", "retrieval_score": 0.91 },
+      { "chunk_id": "pdf_doc_annual_plan_2023_chunk_4", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "The key decisions from the last product strategy meeting were to prioritize international expansion in Q4 and to invest in a new machine learning-based recommendation engine.",
+    "response_latency_ms": 3350,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "5i4j3k2l",
+    "user_query": "What is the company's policy on employee education and training?",
+    "retrieved_chunks": [
+      { "chunk_id": "pdf_doc_education_policy_2021_chunk_1", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.97 },
+      { "chunk_id": "wiki_hr_benefits_overview_chunk_4", "source": "Engineering Wiki", "retrieval_score": 0.93 },
+      { "chunk_id": "conf_learning_and_development_update_chunk_2", "source": "Confluence", "retrieval_score": 0.90 },
+      { "chunk_id": "pdf_doc_employee_handbook_2022_chunk_12", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "The 2021 education policy provides an annual budget of $2,000 per employee for conferences, courses, and other training.",
+    "response_latency_ms": 4250,
+    "user_feedback": "thumb_down"
+  },
+  {
+    "query_id": "1m0n9o8p",
+    "user_query": "How do I rollback a failed deployment?",
+    "retrieved_chunks": [
+      { "chunk_id": "wiki_deployment_playbook_chunk_3", "source": "Engineering Wiki", "retrieval_score": 0.99 },
+      { "chunk_id": "wiki_incident_response_guide_chunk_4", "source": "Engineering Wiki", "retrieval_score": 0.96 },
+      { "chunk_id": "conf_sre_office_hours_notes_chunk_8", "source": "Confluence", "retrieval_score": 0.91 },
+      { "chunk_id": "pdf_doc_ci_cd_pipeline_spec_v2_chunk_7", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.88 }
+    ],
+    "final_answer": "To rollback a failed deployment, you can use the 'Rollback' button in the deployment dashboard for the specific service. The deployment playbook has detailed instructions.",
+    "response_latency_ms": 2500,
+    "user_feedback": "thumb_up"
+  },
+  {
+    "query_id": "7q6r5s4t",
+    "user_query": "Who is our main competitor in the European market?",
+    "retrieved_chunks": [
+      { "chunk_id": "conf_market_analysis_europe_q2_chunk_1", "source": "Confluence", "retrieval_score": 0.97 },
+      { "chunk_id": "pdf_doc_competitive_landscape_2022_chunk_8", "source": "Archived Design Docs (PDFs)", "retrieval_score": 0.92 },
+      { "chunk_id": "conf_sales_kickoff_q3_notes_chunk_5", "source": "Confluence", "retrieval_score": 0.89 },
+      { "chunk_id": "wiki_sales_playbook_europe_chunk_2", "source": "Engineering Wiki", "retrieval_score": 0.86 }
+    ],
+    "final_answer": "The latest market analysis for Europe identifies 'FutureCorp' as our main competitor, with a significant market share in Germany and France.",
+    "response_latency_ms": 3100,
+    "user_feedback": "thumb_up"
+  }
+]
